@@ -4,7 +4,6 @@ export default function getFullBudgetObject(income, gdp, capita) {
   const budget = getBudgetObject(income, gdp, capita);
   const fullBudget = {
     ...budget,
-    // Using ES6 method property syntax
     getIncomeInDollars(income) {
       return `$${income}`;
     },
