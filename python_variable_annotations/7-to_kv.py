@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-from typing import Union, Tuple
+
 """Module that defines a function to convert a key-value pair into a tuple."""
+
+from typing import Union, Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
