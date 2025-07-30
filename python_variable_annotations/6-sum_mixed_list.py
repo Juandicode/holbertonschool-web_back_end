@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""Module that defines a function to sum a mixed list of integers and floats."""
+"""Module that defilist of integers and floats."""
 
 from typing import List, Union
 
